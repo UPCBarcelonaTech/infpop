@@ -1,0 +1,7 @@
+--Codellama-70b-hf vLLM
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 0.0009765625
+Codellama-70b-hf vLLM: The difference in throughput between a100 and tesla is significant.
+Codellama-70b-hf vLLM: Cliff's delta: (0.6198347107438017, (0.21479277534875507, 1.0248766461388483))
+Codellama-70b-hf vLLM: Mean improvement: 113.45934039736689
+Codellama-70b-hf vLLM: Median improvement: 119.37998339675524
+Codellama-70b-hf vLLM: std improvement: 14.59472550182513

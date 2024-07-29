@@ -1,0 +1,7 @@
+--Phi-1_5 vLLM
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 1.1368683772161603e-13
+Phi-1_5 vLLM: The difference in throughput between a100 and tesla is significant.
+Phi-1_5 vLLM: Cliff's delta: (0.4896694214876033, (0.2657999809250351, 0.7135388620501715))
+Phi-1_5 vLLM: Mean improvement: 51.42262574255135
+Phi-1_5 vLLM: Median improvement: 49.250794710095605
+Phi-1_5 vLLM: std improvement: 16.043048863258146

@@ -1,0 +1,7 @@
+--Bloom-7b1 autohf
+Paired t-wilcoxon: t-statistic = 14.0, p-value = 1.3113021850585938e-05
+Bloom-7b1 autohf: The difference in throughput between a100 and tesla is significant.
+Bloom-7b1 autohf: Cliff's delta: (0.5486111111111112, (0.25332883642896803, 0.8438933857932542))
+Bloom-7b1 autohf: Mean improvement: 14.306844374083695
+Bloom-7b1 autohf: Median improvement: 15.402254520075328
+Bloom-7b1 autohf: std improvement: 9.1006925298673

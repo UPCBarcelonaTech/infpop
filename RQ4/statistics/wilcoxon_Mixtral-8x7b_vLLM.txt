@@ -1,0 +1,7 @@
+--Mixtral-8x7b vLLM
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 0.0009765625
+Mixtral-8x7b vLLM: The difference in throughput between a100 and tesla is significant.
+Mixtral-8x7b vLLM: Cliff's delta: (0.7024793388429752, (0.30602732152956796, 1.0989313561563825))
+Mixtral-8x7b vLLM: Mean improvement: 112.24652592088005
+Mixtral-8x7b vLLM: Median improvement: 127.10029134019419
+Mixtral-8x7b vLLM: std improvement: 25.884822710438414

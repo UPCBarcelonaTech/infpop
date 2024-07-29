@@ -1,0 +1,7 @@
+--Wizardcoder-15b-v1.0 vLLM
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 2.3283064365386963e-10
+Wizardcoder-15b-v1.0 vLLM: The difference in throughput between a100 and tesla is significant.
+Wizardcoder-15b-v1.0 vLLM: Cliff's delta: (0.6914600550964187, (0.49428846590351483, 0.8886316442893226))
+Wizardcoder-15b-v1.0 vLLM: Mean improvement: 120.76276220234215
+Wizardcoder-15b-v1.0 vLLM: Median improvement: 116.02336254646013
+Wizardcoder-15b-v1.0 vLLM: std improvement: 39.382690463354635

@@ -1,0 +1,7 @@
+--Starcoder2-7b autohf
+Paired t-wilcoxon: t-statistic = 7.0, p-value = 3.5390257835388184e-08
+Starcoder2-7b autohf: The difference in throughput between a100 and tesla is significant.
+Starcoder2-7b autohf: Cliff's delta: (0.64, (0.4245010884132905, 0.8554989115867095))
+Starcoder2-7b autohf: Mean improvement: 21.942960427209297
+Starcoder2-7b autohf: Median improvement: 20.389772842392233
+Starcoder2-7b autohf: std improvement: 12.08089214700949

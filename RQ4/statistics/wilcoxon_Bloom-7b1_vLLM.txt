@@ -1,0 +1,7 @@
+--Bloom-7b1 vLLM
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 1.1368683772161603e-13
+Bloom-7b1 vLLM: The difference in throughput between a100 and tesla is significant.
+Bloom-7b1 vLLM: Cliff's delta: (0.5485537190082644, (0.34828850492244456, 0.7488189330940843))
+Bloom-7b1 vLLM: Mean improvement: 94.17715223226973
+Bloom-7b1 vLLM: Median improvement: 91.59865281282535
+Bloom-7b1 vLLM: std improvement: 33.16866206698737

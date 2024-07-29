@@ -1,0 +1,7 @@
+--Codestral-22b-v0.1 autohf
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 4.76837158203125e-07
+Codestral-22b-v0.1 autohf: The difference in throughput between a100 and tesla is significant.
+Codestral-22b-v0.1 autohf: Cliff's delta: (0.4090909090909091, (0.0819897787106994, 0.7361920394711188))
+Codestral-22b-v0.1 autohf: Mean improvement: 49.383728010877014
+Codestral-22b-v0.1 autohf: Median improvement: 32.45503205213055
+Codestral-22b-v0.1 autohf: std improvement: 50.78973956342459

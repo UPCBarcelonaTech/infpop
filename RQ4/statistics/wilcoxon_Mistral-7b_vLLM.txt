@@ -1,0 +1,7 @@
+--Mistral-7b vLLM
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 1.1368683772161603e-13
+Mistral-7b vLLM: The difference in throughput between a100 and tesla is significant.
+Mistral-7b vLLM: Cliff's delta: (0.4452479338842975, (0.23201638691899673, 0.6584794808495983))
+Mistral-7b vLLM: Mean improvement: 84.04501519386764
+Mistral-7b vLLM: Median improvement: 81.53001788003897
+Mistral-7b vLLM: std improvement: 23.400647902408117

@@ -1,0 +1,758 @@
+                  model  engine  nrGPUs_a100  batchSize_a100  throughput_a100  throughput_tesla       errors_l_a100      errors_l_tesla  Improvement
+59549      Mixtral-8x7b  autohf            1               8         0.189473          0.477247                  ok                  ok   -60.298723
+59504      Mixtral-8x7b  autohf            1               4         0.117556          0.291902                  ok                  ok   -59.727774
+59594      Mixtral-8x7b  autohf            1              16         0.341465          0.822023                  ok                  ok   -58.460348
+59639      Mixtral-8x7b  autohf            1              32         0.613831          1.469517                  ok                  ok   -58.229034
+59414      Mixtral-8x7b  autohf            1               1         0.041649          0.097225                  ok                  ok   -57.162710
+59459      Mixtral-8x7b  autohf            1               2         0.081132          0.179028                  ok                  ok   -54.681986
+40830          Gemma-7b  autohf            2               2         1.700750          3.275230                  ok                  ok   -48.072331
+40853          Gemma-7b  autohf            2               4         1.798737          3.400348                  ok                  ok   -47.101382
+40807          Gemma-7b  autohf            2               1         1.645178          3.065665                  ok                  ok   -46.335363
+40876          Gemma-7b  autohf            2               8         1.957063          3.449088                  ok                  ok   -43.258525
+10032     Starcoder2-3b  autohf            8               8        72.154336         93.539021                  ok                  ok   -22.861780
+37993          Gemma-2b  autohf            2               4         4.187924          5.376459                  ok                  ok   -22.106271
+38039          Gemma-2b  autohf            2              16         4.426866          5.572398                  ok                  ok   -20.557261
+9987      Starcoder2-3b  autohf            8               4        46.780630         58.826007                  ok                  ok   -20.476278
+37970          Gemma-2b  autohf            2               2         4.075964          5.079079                  ok                  ok   -19.749936
+37947          Gemma-2b  autohf            2               1         3.876470          4.783952                  ok                  ok   -18.969283
+38062          Gemma-2b  autohf            2              32         4.564295          5.556604                  ok  CUDA out of memory   -17.858194
+38016          Gemma-2b  autohf            2               8         4.383987          5.240428                  ok                  ok   -16.342950
+50707             Phi-2  autohf            8               1        14.405735         16.707401                  ok                  ok   -13.776326
+33957   Codellama-7b-hf  autohf            1               8        19.164802         22.142610                  ok  CUDA out of memory   -13.448316
+22704         Bloom-7b1  autohf            1               8        21.364794         24.479908                  ok  CUDA out of memory   -12.725189
+55924        Mistral-7b  autohf            1              16        17.892157         20.160935                  ok  CUDA out of memory   -11.253339
+12509     Starcoder2-7b  autohf            1              32        17.897343         20.026701                  ok  CUDA out of memory   -10.632595
+27116  Codellama-13b-hf  autohf            2              16        11.396890         12.132565                  ok  CUDA out of memory    -6.063646
+57139        Mistral-7b  autohf            8               1        10.121442         10.626123                  ok                  ok    -4.749436
+46835           Phi-1_5  autohf            8               1        27.705627         28.763478                  ok                  ok    -3.677760
+50752             Phi-2  autohf            8               2        21.826736         22.256720                  ok                  ok    -1.931932
+9942      Starcoder2-3b  autohf            8               2        35.244420         35.817082                  ok                  ok    -1.598851
+16299         Bloom-1b7  autohf            4               1        24.351082         24.643557                  ok                  ok    -1.186818
+13814     Starcoder2-7b  autohf            8               2        13.752212         13.835804                  ok                  ok    -0.604178
+59909      Mixtral-8x7b  autohf            2               1         0.122569          0.123235                  ok                  ok    -0.541050
+35352   Codellama-7b-hf  autohf            8               2        14.683770         14.717020                  ok                  ok    -0.225930
+23289         Bloom-7b1  autohf            2              32        23.567055         23.411741  CUDA out of memory  CUDA out of memory     0.663406
+34542   Codellama-7b-hf  autohf            2              32        17.105469         16.978703                  ok  CUDA out of memory     0.746621
+50797             Phi-2  autohf            8               4        29.456411         29.145117                  ok                  ok     1.068083
+24099         Bloom-7b1  autohf            8               2        16.141122         15.846117                  ok                  ok     1.861688
+57181        Mistral-7b  autohf            8               2        14.068931         13.664691                  ok                  ok     2.958288
+60089      Mixtral-8x7b  autohf            2              16         1.020213          0.985655  CUDA out of memory                  ok     3.506104
+16344         Bloom-1b7  autohf            4               2        39.165547         37.744793                  ok                  ok     3.764106
+61169      Mixtral-8x7b  autohf            8              64        10.252515          9.861975                  ok  CUDA out of memory     3.960059
+46925           Phi-1_5  autohf            8               4        59.602586         56.877451                  ok                  ok     4.791240
+46880           Phi-1_5  autohf            8               2        46.088204         43.764304                  ok                  ok     5.310034
+60044      Mixtral-8x7b  autohf            2               8         0.605485          0.574737                  ok                  ok     5.349936
+19687          Bloom-3b  autohf            4               1        19.424967         18.367836                  ok                  ok     5.755336
+24054         Bloom-7b1  autohf            8               1        12.562543         11.874139                  ok                  ok     5.797507
+59999      Mixtral-8x7b  autohf            2               4         0.381535          0.359731                  ok                  ok     6.061208
+35082   Codellama-7b-hf  autohf            4              64        17.223491         16.167895                  ok  CUDA out of memory     6.528965
+19957          Bloom-3b  autohf            4              64        37.285092         34.991847                  ok  CUDA out of memory     6.553655
+15804         Bloom-1b7  autohf            2               1        27.683103         25.970125                  ok                  ok     6.595952
+33912   Codellama-7b-hf  autohf            1               4        19.082442         17.868876                  ok  CUDA out of memory     6.791510
+59954      Mixtral-8x7b  autohf            2               2         0.234303          0.218035                  ok                  ok     7.461224
+1485    Wizardcoder-15b  autohf            8               1         6.222128          5.782065                  ok                  ok     7.610819
+35397   Codellama-7b-hf  autohf            8               4        18.063480         16.718663                  ok                  ok     8.043804
+16389         Bloom-1b7  autohf            4               4        53.997097         49.896443                  ok                  ok     8.218328
+60989      Mixtral-8x7b  autohf            8               4         7.470654          6.881440                  ok                  ok     8.562360
+17019         Bloom-1b7  autohf            8              32        70.215408         64.582824                  ok  CUDA out of memory     8.721489
+15534         Bloom-1b7  autohf            1              32        70.935458         64.968006                  ok  CUDA out of memory     9.185217
+23559         Bloom-7b1  autohf            4               1        14.155006         12.887071                  ok                  ok     9.838816
+60944      Mixtral-8x7b  autohf            8               2         6.094338          5.536328                  ok                  ok    10.079061
+24324         Bloom-7b1  autohf            8              64        18.633647         16.897185                  ok  CUDA out of memory    10.276634
+12464     Starcoder2-7b  autohf            1              16        19.493215         17.596783                  ok  CUDA out of memory    10.777152
+49492             Phi-2  autohf            1              64        25.082585         22.634843  CUDA out of memory  CUDA out of memory    10.814043
+9447      Starcoder2-3b  autohf            4               2        48.610210         43.801780                  ok                  ok    10.977706
+27971  Codellama-13b-hf  autohf            8               2        10.324301          9.284624                  ok                  ok    11.197837
+55840        Mistral-7b  autohf            1               4        17.946048         16.102822                  ok                  ok    11.446600
+28061  Codellama-13b-hf  autohf            8               8        11.459237         10.281920                  ok                  ok    11.450360
+24189         Bloom-7b1  autohf            8               8        19.884251         17.830818                  ok                  ok    11.516198
+13769     Starcoder2-7b  autohf            8               1        12.002670         10.753025                  ok                  ok    11.621332
+16794         Bloom-1b7  autohf            8               1        32.779290         29.352345                  ok                  ok    11.675202
+23829         Bloom-7b1  autohf            4              64        21.467850         19.189294  CUDA out of memory  CUDA out of memory    11.874102
+22659         Bloom-7b1  autohf            1               4        21.772052         19.416155                  ok  CUDA out of memory    12.133693
+1575    Wizardcoder-15b  autohf            8               4         7.042426          6.274546                  ok                  ok    12.238017
+24144         Bloom-7b1  autohf            8               4        20.119353         17.920853                  ok                  ok    12.267834
+46970           Phi-1_5  autohf            8               8        66.664213         59.335821                  ok                  ok    12.350705
+27071  Codellama-13b-hf  autohf            2               8        11.651196         10.364556                  ok                  ok    12.413843
+56719        Mistral-7b  autohf            4               2        15.964804         14.199026                  ok                  ok    12.435905
+28241  Codellama-13b-hf  autohf            8             128         8.731038          7.759383                  ok  CUDA out of memory    12.522318
+61034      Mixtral-8x7b  autohf            8               8         9.057930          8.049207                  ok                  ok    12.531952
+28106  Codellama-13b-hf  autohf            8              16        11.489342         10.204648                  ok                  ok    12.589301
+28016  Codellama-13b-hf  autohf            8               4        11.563231         10.257479                  ok                  ok    12.729754
+13319     Starcoder2-7b  autohf            4               2        16.720135         14.819071                  ok                  ok    12.828499
+35442   Codellama-7b-hf  autohf            8               8        18.585794         16.472278                  ok                  ok    12.830742
+34497   Codellama-7b-hf  autohf            2              16        18.504889         16.369217                  ok                  ok    13.046876
+57265        Mistral-7b  autohf            8               8        17.830955         15.767859                  ok                  ok    13.084185
+56386        Mistral-7b  autohf            2              16        17.513314         15.478249                  ok                  ok    13.147898
+57223        Mistral-7b  autohf            8               4        17.831526         15.749955                  ok                  ok    13.216359
+55798        Mistral-7b  autohf            1               2        16.282434         14.374569                  ok                  ok    13.272500
+32372  Codellama-34b-hf  autohf            8               4         5.027242          4.436966                  ok                  ok    13.303595
+35307   Codellama-7b-hf  autohf            8               1        13.225633         11.658893                  ok                  ok    13.438159
+60899      Mixtral-8x7b  autohf            8               1         4.050661          3.568725                  ok                  ok    13.504444
+56677        Mistral-7b  autohf            4               1        11.592813         10.206815                  ok                  ok    13.579143
+23604         Bloom-7b1  autohf            4               2        18.319233         16.121795                  ok                  ok    13.630229
+27026  Codellama-13b-hf  autohf            2               4        11.759972         10.347382                  ok                  ok    13.651665
+56260        Mistral-7b  autohf            2               2        16.214521         14.265777                  ok                  ok    13.660269
+55882        Mistral-7b  autohf            1               8        18.186967         15.995048                  ok                  ok    13.703733
+56344        Mistral-7b  autohf            2               8        18.177094         15.974212                  ok                  ok    13.790243
+27566  Codellama-13b-hf  autohf            4               8        11.827773         10.390349                  ok                  ok    13.834226
+30448  Codellama-34b-hf  autohf            1               8         0.608048          0.533432                  ok                  ok    13.987957
+50212             Phi-2  autohf            4               1        19.532369         17.131260                  ok                  ok    14.015951
+34452   Codellama-7b-hf  autohf            2               8        19.089656         16.732278                  ok                  ok    14.088802
+9897      Starcoder2-3b  autohf            8               1        21.975378         19.235967                  ok                  ok    14.241089
+13859     Starcoder2-7b  autohf            8               4        19.090362         16.680677                  ok                  ok    14.445964
+16434         Bloom-1b7  autohf            4               8        63.911541         55.805764                  ok                  ok    14.524981
+1620    Wizardcoder-15b  autohf            8               8         6.941788          6.055877                  ok                  ok    14.628952
+35487   Codellama-7b-hf  autohf            8              16        18.581537         16.180321                  ok                  ok    14.840351
+34902   Codellama-7b-hf  autohf            4               4        19.316456         16.793260                  ok                  ok    15.025051
+13904     Starcoder2-7b  autohf            8               8        19.356619         16.825899                  ok                  ok    15.040624
+56302        Mistral-7b  autohf            2               4        17.975973         15.613413                  ok                  ok    15.131603
+46340           Phi-1_5  autohf            4               1        33.496606         29.085425                  ok                  ok    15.166294
+30493  Codellama-34b-hf  autohf            1              16         1.096696          0.952184                  ok                  ok    15.176843
+34407   Codellama-7b-hf  autohf            2               4        18.849581         16.361555                  ok                  ok    15.206539
+50842             Phi-2  autohf            8               8        36.079381         31.307838                  ok                  ok    15.240729
+1530    Wizardcoder-15b  autohf            8               2         7.081358          6.143096                  ok                  ok    15.273440
+33867   Codellama-7b-hf  autohf            1               2        17.482838         15.165298                  ok                  ok    15.281865
+23694         Bloom-7b1  autohf            4               8        20.760260         18.005812                  ok                  ok    15.297547
+57307        Mistral-7b  autohf            8              16        17.672721         15.304415                  ok                  ok    15.474665
+23649         Bloom-7b1  autohf            4               4        20.849979         18.050842                  ok                  ok    15.506962
+24234         Bloom-7b1  autohf            8              16        20.080469         17.370739                  ok                  ok    15.599395
+61079      Mixtral-8x7b  autohf            8              16        10.240531          8.856669                  ok                  ok    15.625088
+13274     Starcoder2-7b  autohf            4               1        13.186478         11.400594                  ok                  ok    15.664841
+20407          Bloom-3b  autohf            8              32        50.065115         43.191086  CUDA out of memory  CUDA out of memory    15.915390
+16884         Bloom-1b7  autohf            8               4        62.417079         53.745263                  ok                  ok    16.135034
+56428        Mistral-7b  autohf            2              32        16.614143         14.295665                  ok                  ok    16.218052
+49987             Phi-2  autohf            2              64        40.453515         34.713937  CUDA out of memory  CUDA out of memory    16.533930
+50527             Phi-2  autohf            4             128        34.028402         29.138072  CUDA out of memory  CUDA out of memory    16.783300
+30403  Codellama-34b-hf  autohf            1               4         0.332917          0.284890                  ok                  ok    16.858082
+27611  Codellama-13b-hf  autohf            4              16        11.929596         10.202624                  ok                  ok    16.926745
+12914     Starcoder2-7b  autohf            2               8        19.809132         16.929229                  ok                  ok    17.011426
+54669     Codestral-22b  autohf            8               4         7.011311          5.987254                  ok                  ok    17.103958
+18922          Bloom-3b  autohf            1              32        50.608139         43.197974  CUDA out of memory  CUDA out of memory    17.153965
+30358  Codellama-34b-hf  autohf            1               2         0.171810          0.146399                  ok                  ok    17.357219
+32417  Codellama-34b-hf  autohf            8               8         5.154584          4.384673                  ok                  ok    17.559149
+34857   Codellama-7b-hf  autohf            4               2        16.965291         14.430139                  ok                  ok    17.568457
+12374     Starcoder2-7b  autohf            1               4        20.171062         17.150273                  ok                  ok    17.613648
+15579         Bloom-1b7  autohf            1              64        94.333045         80.194170  CUDA out of memory  CUDA out of memory    17.630801
+12419     Starcoder2-7b  autohf            1               8        19.778008         16.811696                  ok                  ok    17.644335
+19462          Bloom-3b  autohf            2              64        53.097351         45.132511  CUDA out of memory  CUDA out of memory    17.647677
+54579     Codestral-22b  autohf            8               1         4.549103          3.860194                  ok                  ok    17.846490
+23199         Bloom-7b1  autohf            2               8        21.280951         18.028187                  ok                  ok    18.042657
+27521  Codellama-13b-hf  autohf            4               4        12.126303         10.268601                  ok                  ok    18.091087
+23154         Bloom-7b1  autohf            2               4        21.531585         18.215734                  ok                  ok    18.203225
+12869     Starcoder2-7b  autohf            2               4        20.257975         17.133244                  ok                  ok    18.237826
+34947   Codellama-7b-hf  autohf            4               8        19.827593         16.764370                  ok                  ok    18.272218
+23739         Bloom-7b1  autohf            4              16        20.685838         17.482628                  ok                  ok    18.322245
+16074         Bloom-1b7  autohf            2              64        82.087717         69.318187  CUDA out of memory  CUDA out of memory    18.421616
+56761        Mistral-7b  autohf            4               4        19.043602         16.073340                  ok                  ok    18.479431
+15849         Bloom-1b7  autohf            2               2        46.014641         38.823530                  ok                  ok    18.522560
+27926  Codellama-13b-hf  autohf            8               1         8.238138          6.950045                  ok                  ok    18.533585
+34812   Codellama-7b-hf  autohf            4               1        13.819071         11.657952                  ok                  ok    18.537716
+47015           Phi-1_5  autohf            8              16        74.945461         63.223853                  ok                  ok    18.539851
+46025           Phi-1_5  autohf            2              16        75.621944         63.745784                  ok                  ok    18.630502
+49222             Phi-2  autohf            1               1        19.457847         16.399105                  ok                  ok    18.651884
+17064         Bloom-1b7  autohf            8              64        94.537947         79.675886  CUDA out of memory  CUDA out of memory    18.653149
+35532   Codellama-7b-hf  autohf            8              32        17.984778         15.157035                  ok                  ok    18.656301
+45935           Phi-1_5  autohf            2               4        67.535684         56.899592                  ok                  ok    18.692738
+34362   Codellama-7b-hf  autohf            2               2        16.999139         14.313559                  ok                  ok    18.762488
+19732          Bloom-3b  autohf            4               2        28.539973         24.011476                  ok                  ok    18.859719
+56803        Mistral-7b  autohf            4               8        18.983108         15.969786                  ok                  ok    18.868898
+56845        Mistral-7b  autohf            4              16        18.443529         15.513744                  ok                  ok    18.885094
+1125    Wizardcoder-15b  autohf            4               8         7.253782          6.087799                  ok                  ok    19.152780
+12959     Starcoder2-7b  autohf            2              16        19.289555         16.174423                  ok                  ok    19.259614
+50887             Phi-2  autohf            8              16        37.532974         31.465939                  ok                  ok    19.281276
+32552  Codellama-34b-hf  autohf            8              64         4.107043          3.440562                  ok                  ok    19.371305
+35037   Codellama-7b-hf  autohf            4              32        18.440682         15.413016                  ok                  ok    19.643568
+34992   Codellama-7b-hf  autohf            4              16        19.647105         16.414926                  ok                  ok    19.690488
+49402             Phi-2  autohf            1              16        11.511970          9.615341                  ok                  ok    19.725036
+32507  Codellama-34b-hf  autohf            8              32         4.591527          3.834264                  ok                  ok    19.749881
+23109         Bloom-7b1  autohf            2               2        19.795396         16.476994                  ok                  ok    20.139611
+28151  Codellama-13b-hf  autohf            8              32        11.026743          9.173487                  ok                  ok    20.202307
+20272          Bloom-3b  autohf            8               4        41.159628         34.240983                  ok                  ok    20.205744
+20182          Bloom-3b  autohf            8               1        25.333936         21.074827                  ok                  ok    20.209457
+12824     Starcoder2-7b  autohf            2               2        18.012100         14.977029                  ok                  ok    20.264838
+13949     Starcoder2-7b  autohf            8              16        19.366736         16.101546                  ok                  ok    20.278738
+57349        Mistral-7b  autohf            8              32        16.976817         14.112613                  ok                  ok    20.295348
+49357             Phi-2  autohf            1               8         6.578391          5.466309                  ok                  ok    20.344306
+26981  Codellama-13b-hf  autohf            2               2        11.276896          9.361264                  ok                  ok    20.463398
+23244         Bloom-7b1  autohf            2              16        21.036030         17.458417                  ok                  ok    20.492196
+12329     Starcoder2-7b  autohf            1               2        18.192684         15.097562                  ok                  ok    20.500808
+54354     Codestral-22b  autohf            4              64         6.326554          5.237607                  ok  CUDA out of memory    20.790920
+54714     Codestral-22b  autohf            8               8         7.423340          6.141655                  ok                  ok    20.868736
+56887        Mistral-7b  autohf            4              32        17.339452         14.339498                  ok                  ok    20.920914
+16479         Bloom-1b7  autohf            4              16        67.257953         55.587526                  ok                  ok    20.994686
+46475           Phi-1_5  autohf            4               8        74.341741         61.362109                  ok                  ok    21.152520
+56218        Mistral-7b  autohf            2               1        13.950752         11.513273                  ok                  ok    21.171028
+1170    Wizardcoder-15b  autohf            4              16         6.988972          5.760170                  ok                  ok    21.332736
+1080    Wizardcoder-15b  autohf            4               4         7.708832          6.337932                  ok                  ok    21.630090
+32327  Codellama-34b-hf  autohf            8               2         4.612547          3.790613                  ok                  ok    21.683395
+37763          Gemma-2b  autohf            1               8        45.820763         37.636401                  ok                  ok    21.745867
+27656  Codellama-13b-hf  autohf            4              32        11.255167          9.243535                  ok                  ok    21.762580
+49447             Phi-2  autohf            1              32        16.721850         13.730114                  ok                  ok    21.789593
+22614         Bloom-7b1  autohf            1               2        20.113163         16.509506                  ok                  ok    21.827767
+13004     Starcoder2-7b  autohf            2              32        17.662237         14.492953                  ok                  ok    21.867758
+9492      Starcoder2-3b  autohf            4               4        72.813562         59.726618                  ok                  ok    21.911410
+13409     Starcoder2-7b  autohf            4               8        20.604405         16.897981                  ok                  ok    21.934121
+15444         Bloom-1b7  autohf            1               8        71.545601         58.666455                  ok                  ok    21.953169
+32462  Codellama-34b-hf  autohf            8              16         5.114903          4.190955                  ok                  ok    22.046248
+61124      Mixtral-8x7b  autohf            8              32        10.440182          8.546062                  ok                  ok    22.163655
+1665    Wizardcoder-15b  autohf            8              16         7.011534          5.735344                  ok                  ok    22.251317
+37740          Gemma-2b  autohf            1               4        44.087811         36.056973                  ok                  ok    22.272633
+45530           Phi-1_5  autohf            1              16        76.055779         62.148840                  ok                  ok    22.376828
+20317          Bloom-3b  autohf            8               8        42.832504         34.924309                  ok                  ok    22.643811
+19777          Bloom-3b  autohf            4               4        37.060935         30.214959                  ok                  ok    22.657570
+16929         Bloom-1b7  autohf            8               8        68.992426         56.205323                  ok                  ok    22.750697
+19822          Bloom-3b  autohf            4               8        41.399535         33.703983                  ok                  ok    22.832769
+54894     Codestral-22b  autohf            8             128         5.419773          4.405949                  ok  CUDA out of memory    23.010338
+54624     Codestral-22b  autohf            8               2         6.472053          5.255342                  ok                  ok    23.151894
+49762             Phi-2  autohf            2               2        31.251208         25.317886                  ok                  ok    23.435298
+16974         Bloom-1b7  autohf            8              16        70.636376         57.183815                  ok                  ok    23.525119
+45440           Phi-1_5  autohf            1               4        68.593910         55.527971                  ok                  ok    23.530374
+45485           Phi-1_5  autohf            1               8        75.446294         61.065694                  ok                  ok    23.549391
+55756        Mistral-7b  autohf            1               1        14.265816         11.538380                  ok                  ok    23.637947
+15984         Bloom-1b7  autohf            2              16        70.684792         57.108209                  ok                  ok    23.773435
+35622   Codellama-7b-hf  autohf            8             128        14.572859         11.754670                  ok  CUDA out of memory    23.975064
+13364     Starcoder2-7b  autohf            4               4        20.926320         16.874065                  ok                  ok    24.014691
+20227          Bloom-3b  autohf            8               2        35.290969         28.450420                  ok                  ok    24.043756
+24279         Bloom-7b1  autohf            8              32        19.713280         15.885453                  ok                  ok    24.096427
+49267             Phi-2  autohf            1               2         1.972086          1.589048                  ok                  ok    24.104853
+50257             Phi-2  autohf            4               2        27.248560         21.945718                  ok                  ok    24.163447
+45980           Phi-1_5  autohf            2               8        74.784912         60.170356                  ok                  ok    24.288631
+56470        Mistral-7b  autohf            2              64        15.590930         12.543199                  ok                  ok    24.297878
+15939         Bloom-1b7  autohf            2               8        67.740855         54.415246                  ok                  ok    24.488742
+1035    Wizardcoder-15b  autohf            4               2         7.897812          6.342652                  ok                  ok    24.519085
+13454     Starcoder2-7b  autohf            4              16        20.183142         16.206562                  ok                  ok    24.536853
+15354         Bloom-1b7  autohf            1               2        54.813366         43.965623                  ok                  ok    24.673238
+16569         Bloom-1b7  autohf            4              64        62.095567         49.778949                  ok  CUDA out of memory    24.742625
+49852             Phi-2  autohf            2               8        41.857791         33.518971                  ok                  ok    24.877911
+15309         Bloom-1b7  autohf            1               1        37.634639         30.131351                  ok                  ok    24.901928
+19867          Bloom-3b  autohf            4              16        42.662001         34.136593                  ok                  ok    24.974396
+35577   Codellama-7b-hf  autohf            8              64        16.965919         13.574727                  ok                  ok    24.981660
+6599      Starcoder-15b  autohf            8               4        22.802365         18.240026                  ok                  ok    25.012789
+27476  Codellama-13b-hf  autohf            4               2        11.616708          9.287895                  ok                  ok    25.073626
+12779     Starcoder2-7b  autohf            2               1        15.411514         12.315259                  ok                  ok    25.141608
+18697          Bloom-3b  autohf            1               1        27.310865         21.723993                  ok                  ok    25.717520
+23784         Bloom-7b1  autohf            4              32        20.017910         15.917259                  ok                  ok    25.762289
+12284     Starcoder2-7b  autohf            1               1        15.658028         12.438433                  ok                  ok    25.884242
+45575           Phi-1_5  autohf            1              32        74.372539         59.076368                  ok                  ok    25.892199
+46070           Phi-1_5  autohf            2              32        74.343958         59.047450                  ok                  ok    25.905451
+23064         Bloom-7b1  autohf            2               1        16.177159         12.835763                  ok                  ok    26.031919
+50392             Phi-2  autohf            4              16        41.569731         32.954798                  ok                  ok    26.141665
+15399         Bloom-1b7  autohf            1               4        66.299444         52.425750                  ok                  ok    26.463510
+46430           Phi-1_5  autohf            4               4        65.474692         51.768639                  ok                  ok    26.475590
+46520           Phi-1_5  autohf            4              16        78.307141         61.887577                  ok                  ok    26.531276
+22569         Bloom-7b1  autohf            1               1        16.841842         13.271000                  ok                  ok    26.907107
+54219     Codestral-22b  autohf            4               8         7.864038          6.194730                  ok                  ok    26.947215
+18742          Bloom-3b  autohf            1               2        36.934674         29.077712                  ok                  ok    27.020563
+32282  Codellama-34b-hf  autohf            8               1         3.700931          2.912156                  ok                  ok    27.085584
+34317   Codellama-7b-hf  autohf            2               1        14.762934         11.606587                  ok                  ok    27.194443
+15489         Bloom-1b7  autohf            1              16        73.641457         57.863284                  ok                  ok    27.268021
+50347             Phi-2  autohf            4               8        40.677159         31.942676                  ok                  ok    27.344240
+19372          Bloom-3b  autohf            2              16        43.638691         34.249693                  ok                  ok    27.413379
+16524         Bloom-1b7  autohf            4              32        67.480375         52.921796                  ok                  ok    27.509610
+33822   Codellama-7b-hf  autohf            1               1        15.679045         12.294831                  ok                  ok    27.525504
+28196  Codellama-13b-hf  autohf            8              64        10.662951          8.358193                  ok                  ok    27.574841
+57391        Mistral-7b  autohf            8              64        15.874646         12.434323                  ok                  ok    27.667960
+56929        Mistral-7b  autohf            4              64        16.123848         12.618736                  ok                  ok    27.777040
+15894         Bloom-1b7  autohf            2               4        60.532881         47.319505                  ok                  ok    27.923740
+47060           Phi-1_5  autohf            8              32        75.374179         58.852208                  ok                  ok    28.073663
+19237          Bloom-3b  autohf            2               2        33.337176         25.998977                  ok                  ok    28.224953
+18787          Bloom-3b  autohf            1               4        43.065654         33.584553                  ok                  ok    28.230540
+49312             Phi-2  autohf            1               4         3.968352          3.089370                  ok                  ok    28.451803
+19912          Bloom-3b  autohf            4              32        41.030701         31.930795                  ok                  ok    28.498839
+50932             Phi-2  autohf            8              32        38.409671         29.886515                  ok                  ok    28.518400
+16839         Bloom-1b7  autohf            8               2        51.483620         40.058759                  ok                  ok    28.520258
+18832          Bloom-3b  autohf            1               8        44.592466         34.586898                  ok                  ok    28.928779
+19327          Bloom-3b  autohf            2               8        43.514530         33.687178                  ok                  ok    29.172380
+540     Wizardcoder-15b  autohf            2               2         8.060091          6.238798                  ok                  ok    29.193003
+19192          Bloom-3b  autohf            2               1        22.053884         17.057682                  ok                  ok    29.290041
+45350           Phi-1_5  autohf            1               1        37.022706         28.625915                  ok                  ok    29.332830
+19417          Bloom-3b  autohf            2              32        42.416254         32.795051                  ok  CUDA out of memory    29.337362
+56971        Mistral-7b  autohf            4             128        13.904169         10.748487                  ok  CUDA out of memory    29.359315
+13049     Starcoder2-7b  autohf            2              64        16.443965         12.703442                  ok                  ok    29.444951
+13994     Starcoder2-7b  autohf            8              32        18.697834         14.443793                  ok                  ok    29.452376
+20362          Bloom-3b  autohf            8              16        44.308405         34.176329                  ok                  ok    29.646473
+37786          Gemma-2b  autohf            1              16        44.482807         34.301910                  ok                  ok    29.680264
+51022             Phi-2  autohf            8             128        31.572799         24.319784                  ok  CUDA out of memory    29.823518
+50437             Phi-2  autohf            4              32        40.561010         31.234715                  ok                  ok    29.858752
+54804     Codestral-22b  autohf            8              32         6.768393          5.209278                  ok                  ok    29.929568
+30313  Codellama-34b-hf  autohf            1               1         0.087379          0.067226                  ok                  ok    29.977367
+57433        Mistral-7b  autohf            8             128        13.762724         10.588167                  ok                  ok    29.982117
+46565           Phi-1_5  autohf            4              32        77.261594         59.273325                  ok                  ok    30.348000
+54309     Codestral-22b  autohf            4              32         6.857073          5.258372                  ok                  ok    30.402950
+19282          Bloom-3b  autohf            2               4        40.463336         31.023216                  ok                  ok    30.429213
+49807             Phi-2  autohf            2               4        38.855759         29.759894                  ok                  ok    30.564174
+37694          Gemma-2b  autohf            1               1        28.791228         22.044435                  ok                  ok    30.605425
+49717             Phi-2  autohf            2               1        21.996517         16.838020                  ok                  ok    30.636006
+50302             Phi-2  autohf            4               4        37.209296         28.463875                  ok                  ok    30.724631
+990     Wizardcoder-15b  autohf            4               1         7.599416          5.812127                  ok                  ok    30.751024
+16029         Bloom-1b7  autohf            2              32        69.700426         53.286660                  ok                  ok    30.802767
+54174     Codestral-22b  autohf            4               4         7.881425          6.007199                  ok                  ok    31.199667
+49897             Phi-2  autohf            2              16        43.224976         32.868656                  ok                  ok    31.508193
+27431  Codellama-13b-hf  autohf            4               1         9.353858          7.096740                  ok                  ok    31.805005
+9537      Starcoder2-3b  autohf            4               8       118.125724         89.578470                  ok                  ok    31.868432
+13499     Starcoder2-7b  autohf            4              32        19.182885         14.526375                  ok                  ok    32.055552
+54759     Codestral-22b  autohf            8              16         7.711510          5.837083                  ok                  ok    32.112391
+18877          Bloom-3b  autohf            1              16        45.259463         34.249755                  ok                  ok    32.145364
+37717          Gemma-2b  autohf            1               2        37.406314         28.300532                  ok                  ok    32.175303
+10077     Starcoder2-3b  autohf            8              16       150.590833        113.769946                  ok                  ok    32.364335
+6554      Starcoder-15b  autohf            8               2        18.991250         14.336870                  ok                  ok    32.464413
+1800    Wizardcoder-15b  autohf            8             128         5.132700          3.868291                  ok  CUDA out of memory    32.686504
+54129     Codestral-22b  autohf            4               2         7.028508          5.292644                  ok                  ok    32.797673
+46385           Phi-1_5  autohf            4               2        51.264976         38.329764                  ok                  ok    33.747173
+13094     Starcoder2-7b  autohf            2             128        16.230131         12.108460  CUDA out of memory  CUDA out of memory    34.039597
+8907      Starcoder2-3b  autohf            2               1        33.393612         24.885346                  ok                  ok    34.189865
+46115           Phi-1_5  autohf            2              64        86.021747         64.031803  CUDA out of memory  CUDA out of memory    34.342224
+54264     Codestral-22b  autohf            4              16         7.906049          5.874193                  ok                  ok    34.589541
+45620           Phi-1_5  autohf            1              64        86.046914         63.908377  CUDA out of memory  CUDA out of memory    34.641057
+50482             Phi-2  autohf            4              64        37.190453         27.579030                  ok                  ok    34.850474
+49942             Phi-2  autohf            2              32        41.960367         30.904603                  ok                  ok    35.773841
+50977             Phi-2  autohf            8              64        35.984627         26.496234                  ok                  ok    35.810347
+45890           Phi-1_5  autohf            2               2        53.353025         39.263845                  ok                  ok    35.883340
+495     Wizardcoder-15b  autohf            2               1         7.991938          5.853292                  ok                  ok    36.537503
+54084     Codestral-22b  autohf            4               1         5.396647          3.948388                  ok                  ok    36.679777
+47105           Phi-1_5  autohf            8              64        87.826021         63.977489  CUDA out of memory  CUDA out of memory    37.276444
+1710    Wizardcoder-15b  autohf            8              32         6.478016          4.717004                  ok                  ok    37.333260
+1260    Wizardcoder-15b  autohf            4              64         6.242157          4.531289                  ok  CUDA out of memory    37.756751
+26936  Codellama-13b-hf  autohf            2               1         9.698531          7.013066                  ok                  ok    38.292306
+14039     Starcoder2-7b  autohf            8              64        17.654870         12.678865                  ok                  ok    39.246463
+1215    Wizardcoder-15b  autohf            4              32         6.594290          4.731132                  ok                  ok    39.380811
+45395           Phi-1_5  autohf            1               2        54.275751         38.920034                  ok                  ok    39.454531
+9402      Starcoder2-3b  autohf            4               1        29.050519         20.772441                  ok                  ok    39.851255
+13544     Starcoder2-7b  autohf            4              64        17.890262         12.732845                  ok                  ok    40.504824
+6644      Starcoder-15b  autohf            8               8        30.434602         21.515075                  ok                  ok    41.457103
+53274     Codestral-22b  autohf            1              16         2.203251          1.550190  CUDA out of memory  CUDA out of memory    42.127796
+46610           Phi-1_5  autohf            4              64        91.139521         63.970657  CUDA out of memory  CUDA out of memory    42.470823
+6509      Starcoder-15b  autohf            8               1        16.636417         11.613228                  ok                  ok    43.254019
+54849     Codestral-22b  autohf            8              64         6.265420          4.337735                  ok                  ok    44.439877
+14084     Starcoder2-7b  autohf            8             128        15.276332         10.548518                  ok                  ok    44.819699
+13589     Starcoder2-7b  autohf            4             128        15.412931         10.600860                  ok                  ok    45.393207
+53229     Codestral-22b  autohf            1               8         1.308086          0.897199                  ok                  ok    45.796616
+45845           Phi-1_5  autohf            2               1        36.212338         24.622249                  ok                  ok    47.071612
+9042      Starcoder2-3b  autohf            2               8       149.478917        101.104099                  ok                  ok    47.846544
+8997      Starcoder2-3b  autohf            2               4        91.961029         61.513798                  ok                  ok    49.496588
+135     Wizardcoder-15b  autohf            1               8         1.537795          1.025743                  ok                  ok    49.920091
+6059      Starcoder-15b  autohf            4               2        23.364816         15.357421                  ok                  ok    52.140231
+8952      Starcoder2-3b  autohf            2               2        56.472776         36.955939                  ok                  ok    52.811099
+6104      Starcoder-15b  autohf            4               4        29.649298         19.242889                  ok                  ok    54.079246
+1755    Wizardcoder-15b  autohf            8              64         6.189354          4.014556                  ok                  ok    54.172802
+8412      Starcoder2-3b  autohf            1               1        44.799030         28.972835                  ok                  ok    54.624257
+53094     Codestral-22b  autohf            1               1         0.171607          0.110509                  ok                  ok    55.287456
+0       Wizardcoder-15b  autohf            1               1         0.347988          0.220719                  ok                  ok    57.660815
+53184     Codestral-22b  autohf            1               4         0.726809          0.458258                  ok                  ok    58.602642
+53139     Codestral-22b  autohf            1               2         0.397589          0.248307                  ok                  ok    60.119921
+45      Wizardcoder-15b  autohf            1               2         0.536535          0.334842                  ok                  ok    60.235163
+90      Wizardcoder-15b  autohf            1               4         0.925005          0.577069                  ok                  ok    60.293711
+10122     Starcoder2-3b  autohf            8              32       203.445633        126.173091                  ok                  ok    61.243281
+8457      Starcoder2-3b  autohf            1               2        79.718188         49.295521                  ok                  ok    61.714872
+40600          Gemma-7b  autohf            1               4         5.448322          3.299466                  ok  CUDA out of memory    65.127384
+9582      Starcoder2-3b  autohf            4              16       204.339049        123.030113                  ok                  ok    66.088646
+3388    Wizardcoder-33b  autohf            1               1         0.099672          0.059156                  ok                  ok    68.488998
+5564      Starcoder-15b  autohf            2               2        26.720808         15.770232                  ok                  ok    69.438263
+8547      Starcoder2-3b  autohf            1               8       191.476412        110.875219                  ok                  ok    72.695409
+40554          Gemma-7b  autohf            1               1         2.068618          1.191674                  ok                  ok    73.589212
+6014      Starcoder-15b  autohf            4               1        19.911723         11.439697                  ok                  ok    74.058141
+5519      Starcoder-15b  autohf            2               1        21.417755         12.188619                  ok                  ok    75.719294
+40577          Gemma-7b  autohf            1               2         3.631555          2.040329                  ok                  ok    77.988733
+8502      Starcoder2-3b  autohf            1               4       130.114869         72.523082                  ok                  ok    79.411663
+6149      Starcoder-15b  autohf            4               8        39.388974         21.856728                  ok                  ok    80.214411
+5609      Starcoder-15b  autohf            2               4        35.673259         19.611274                  ok                  ok    81.901792
+9087      Starcoder2-3b  autohf            2              16       241.765678        128.139525                  ok                  ok    88.673774
+9627      Starcoder2-3b  autohf            4              32       247.920310        129.559353                  ok                  ok    91.356551
+6689      Starcoder-15b  autohf            8              16        41.668882         21.727488                  ok                  ok    91.779570
+26531  Codellama-13b-hf  autohf            1               4         2.338098          1.217752                  ok  CUDA out of memory    92.001210
+10167     Starcoder2-3b  autohf            8              64       228.978029        118.771713                  ok                  ok    92.788353
+10257     Starcoder2-3b  autohf            8             256       218.970689        111.898349  CUDA out of memory  CUDA out of memory    95.687149
+26486  Codellama-13b-hf  autohf            1               2         1.289128          0.649235                  ok                  ok    98.561162
+5654      Starcoder-15b  autohf            2               8        43.824666         21.986945                  ok                  ok    99.321307
+9132      Starcoder2-3b  autohf            2              32       262.586936        130.403820                  ok                  ok   101.364451
+33562  Codellama-70b-hf  autohf            8              16         2.850483          1.411233                  ok                  ok   101.985298
+8592      Starcoder2-3b  autohf            1              16       262.800744        128.957986                  ok                  ok   103.787878
+33263  Codellama-70b-hf  autohf            4               4         0.385787          0.186822  CUDA out of memory                  ok   106.499379
+26441  Codellama-13b-hf  autohf            1               1         0.701012          0.337300                  ok                  ok   107.830636
+9672      Starcoder2-3b  autohf            4              64       253.587351        120.872014                  ok                  ok   109.798233
+8637      Starcoder2-3b  autohf            1              32       282.427148        134.501459                  ok                  ok   109.980732
+9177      Starcoder2-3b  autohf            2              64       259.242360        123.138034                  ok                  ok   110.529885
+33240  Codellama-70b-hf  autohf            4               2         0.204748          0.097181                  ok                  ok   110.687465
+8682      Starcoder2-3b  autohf            1              64       264.369851        124.690443                  ok                  ok   112.020941
+6194      Starcoder-15b  autohf            4              16        48.493619         21.682312                  ok                  ok   123.655207
+10212     Starcoder2-3b  autohf            8             128       222.810768         98.949854                  ok                  ok   125.175439
+5699      Starcoder-15b  autohf            2              16        50.213091         22.136776                  ok                  ok   126.831096
+33217  Codellama-70b-hf  autohf            4               1         0.100732          0.043786                  ok                  ok   130.051782
+8727      Starcoder2-3b  autohf            1             128       250.551856        106.148893                  ok                  ok   136.038123
+9717      Starcoder2-3b  autohf            4             128       238.621020        100.909180                  ok                  ok   136.471073
+9222      Starcoder2-3b  autohf            2             128       248.162281        103.989475                  ok                  ok   138.641728
+6734      Starcoder-15b  autohf            8              32        42.991515         17.817904                  ok                  ok   141.282681
+9762      Starcoder2-3b  autohf            4             256       278.266058        115.155582  CUDA out of memory  CUDA out of memory   141.643570
+5744      Starcoder-15b  autohf            2              32        47.885715         18.601380                  ok                  ok   157.430976
+6239      Starcoder-15b  autohf            4              32        46.463169         17.996656                  ok                  ok   158.176673
+33539  Codellama-70b-hf  autohf            8               8         2.971218          1.076382                  ok                  ok   176.037425
+53634     Codestral-22b  autohf            2               2         1.631593          0.554558                  ok  CUDA out of memory   194.215000
+60584      Mixtral-8x7b  autohf            4              16         4.863390          1.644100  CUDA out of memory                  ok   195.808698
+6869      Starcoder-15b  autohf            8             256        37.103574         12.323648  CUDA out of memory  CUDA out of memory   201.076227
+5204      Starcoder-15b  autohf            1              16        55.112130         18.179194                  ok  CUDA out of memory   203.160474
+5789      Starcoder-15b  autohf            2              64        46.212522         15.102219                  ok  CUDA out of memory   205.998221
+6779      Starcoder-15b  autohf            8              64        42.957661         13.967886                  ok                  ok   207.545891
+53589     Codestral-22b  autohf            2               1         0.830832          0.269382                  ok                  ok   208.421592
+60404      Mixtral-8x7b  autohf            4               1         0.718812          0.230167                  ok                  ok   212.299706
+60539      Mixtral-8x7b  autohf            4               8         3.163302          1.012129                  ok                  ok   212.539521
+6284      Starcoder-15b  autohf            4              64        44.877620         13.987424                  ok                  ok   220.842644
+6824      Starcoder-15b  autohf            8             128        38.543764         11.907772                  ok                  ok   223.685768
+6329      Starcoder-15b  autohf            4             128        39.282825         11.964204                  ok                  ok   228.336309
+60494      Mixtral-8x7b  autohf            4               4         1.990124          0.601964                  ok                  ok   230.605385
+60449      Mixtral-8x7b  autohf            4               2         1.292272          0.384971                  ok                  ok   235.680074
+31832  Codellama-34b-hf  autohf            4               2         4.913768          1.459304                  ok  CUDA out of memory   236.719960
+33516  Codellama-70b-hf  autohf            8               4         2.903294          0.663300                  ok                  ok   337.704736
+5159      Starcoder-15b  autohf            1               8        52.719456         11.943667                  ok                  ok   341.400903
+31787  Codellama-34b-hf  autohf            4               1         4.124852          0.828773                  ok                  ok   397.705696
+5114      Starcoder-15b  autohf            1               4        46.549171          8.181978                  ok                  ok   468.923185
+33493  Codellama-70b-hf  autohf            8               2         2.351241          0.395156                  ok                  ok   495.016162
+5069      Starcoder-15b  autohf            1               2        37.974310          5.133172                  ok                  ok   639.782476
+33470  Codellama-70b-hf  autohf            8               1         1.790159          0.210669                  ok                  ok   749.751349
+5024      Starcoder-15b  autohf            1               1        30.682274          3.510445                  ok                  ok   774.028100
+4067    Wizardcoder-33b  autohf            4               2         1.641683          0.148876                  ok                  ok  1002.717873
+180     Wizardcoder-15b  autohf            1              16         2.594075               NaN  CUDA out of memory  CUDA out of memory          NaN
+225     Wizardcoder-15b  autohf            1              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+270     Wizardcoder-15b  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+315     Wizardcoder-15b  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+360     Wizardcoder-15b  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+405     Wizardcoder-15b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+450     Wizardcoder-15b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+585     Wizardcoder-15b  autohf            2               4              NaN          6.328605  CUDA out of memory                  ok          NaN
+630     Wizardcoder-15b  autohf            2               8              NaN          6.641586  CUDA out of memory  CUDA out of memory          NaN
+675     Wizardcoder-15b  autohf            2              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+720     Wizardcoder-15b  autohf            2              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+765     Wizardcoder-15b  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+810     Wizardcoder-15b  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+855     Wizardcoder-15b  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+900     Wizardcoder-15b  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+945     Wizardcoder-15b  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+1305    Wizardcoder-15b  autohf            4             128         6.139125               NaN  CUDA out of memory  CUDA out of memory          NaN
+1350    Wizardcoder-15b  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+1395    Wizardcoder-15b  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+1440    Wizardcoder-15b  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+1845    Wizardcoder-15b  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+1890    Wizardcoder-15b  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+1935    Wizardcoder-15b  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+3418    Wizardcoder-33b  autohf            1               2              NaN          0.114520  CUDA out of memory                  ok          NaN
+3709    Wizardcoder-33b  autohf            2               1              NaN               NaN          CUDA error  CUDA out of memory          NaN
+3739    Wizardcoder-33b  autohf            2               2              NaN          0.129792  CUDA out of memory                  ok          NaN
+3769    Wizardcoder-33b  autohf            2               4              NaN          0.210122  CUDA out of memory                  ok          NaN
+3799    Wizardcoder-33b  autohf            2               8              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+3829    Wizardcoder-33b  autohf            2              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+3859    Wizardcoder-33b  autohf            2              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+3889    Wizardcoder-33b  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+3919    Wizardcoder-33b  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+3949    Wizardcoder-33b  autohf            2             256              NaN               NaN  CUDA out of memory       killed-noInfo          NaN
+4037    Wizardcoder-33b  autohf            4               1         1.632227               NaN                  ok  CUDA out of memory          NaN
+4097    Wizardcoder-33b  autohf            4               4              NaN          0.232419  CUDA out of memory                  ok          NaN
+4127    Wizardcoder-33b  autohf            4               8              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4157    Wizardcoder-33b  autohf            4              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4187    Wizardcoder-33b  autohf            4              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4217    Wizardcoder-33b  autohf            4              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4247    Wizardcoder-33b  autohf            4             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4277    Wizardcoder-33b  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4336    Wizardcoder-33b  autohf            8               1              NaN          0.250903  CUDA out of memory                  ok          NaN
+4366    Wizardcoder-33b  autohf            8               2              NaN          0.232476  CUDA out of memory                  ok          NaN
+4396    Wizardcoder-33b  autohf            8               4              NaN          0.222067  CUDA out of memory                  ok          NaN
+4426    Wizardcoder-33b  autohf            8               8              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4456    Wizardcoder-33b  autohf            8              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4486    Wizardcoder-33b  autohf            8              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4516    Wizardcoder-33b  autohf            8              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4546    Wizardcoder-33b  autohf            8             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+4576    Wizardcoder-33b  autohf            8             256              NaN               NaN  CUDA out of memory       killed-noInfo          NaN
+5249      Starcoder-15b  autohf            1              32        62.421300               NaN  CUDA out of memory  CUDA out of memory          NaN
+5294      Starcoder-15b  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+5339      Starcoder-15b  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+5384      Starcoder-15b  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+5429      Starcoder-15b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+5474      Starcoder-15b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+5834      Starcoder-15b  autohf            2             128        50.293656               NaN  CUDA out of memory  CUDA out of memory          NaN
+5879      Starcoder-15b  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+5924      Starcoder-15b  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+5969      Starcoder-15b  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+6374      Starcoder-15b  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+6419      Starcoder-15b  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+6464      Starcoder-15b  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+6914      Starcoder-15b  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+6959      Starcoder-15b  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+8772      Starcoder2-3b  autohf            1             256       280.348823               NaN  CUDA out of memory  CUDA out of memory          NaN
+8817      Starcoder2-3b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+8862      Starcoder2-3b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+9267      Starcoder2-3b  autohf            2             256       276.375838               NaN  CUDA out of memory  CUDA out of memory          NaN
+9312      Starcoder2-3b  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+9357      Starcoder2-3b  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+9807      Starcoder2-3b  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+9852      Starcoder2-3b  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+10302     Starcoder2-3b  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+10347     Starcoder2-3b  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+12554     Starcoder2-7b  autohf            1              64        21.964507               NaN  CUDA out of memory  CUDA out of memory          NaN
+12599     Starcoder2-7b  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+12644     Starcoder2-7b  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+12689     Starcoder2-7b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+12734     Starcoder2-7b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+13139     Starcoder2-7b  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+13184     Starcoder2-7b  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+13229     Starcoder2-7b  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+13634     Starcoder2-7b  autohf            4             256        16.062939               NaN  CUDA out of memory  CUDA out of memory          NaN
+13679     Starcoder2-7b  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+13724     Starcoder2-7b  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+14129     Starcoder2-7b  autohf            8             256        15.982258               NaN  CUDA out of memory  CUDA out of memory          NaN
+14174     Starcoder2-7b  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+14219     Starcoder2-7b  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+15624         Bloom-1b7  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+15669         Bloom-1b7  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+15714         Bloom-1b7  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+15759         Bloom-1b7  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+16119         Bloom-1b7  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+16164         Bloom-1b7  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+16209         Bloom-1b7  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+16254         Bloom-1b7  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+16614         Bloom-1b7  autohf            4             128        80.820563               NaN  CUDA out of memory  CUDA out of memory          NaN
+16659         Bloom-1b7  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+16704         Bloom-1b7  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+16749         Bloom-1b7  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+17109         Bloom-1b7  autohf            8             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+17154         Bloom-1b7  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+17199         Bloom-1b7  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+17244         Bloom-1b7  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+18967          Bloom-3b  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+19012          Bloom-3b  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+19057          Bloom-3b  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+19102          Bloom-3b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+19147          Bloom-3b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+19507          Bloom-3b  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+19552          Bloom-3b  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+19597          Bloom-3b  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+19642          Bloom-3b  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+20002          Bloom-3b  autohf            4             128        47.025283               NaN  CUDA out of memory  CUDA out of memory          NaN
+20047          Bloom-3b  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+20092          Bloom-3b  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+20137          Bloom-3b  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+20452          Bloom-3b  autohf            8              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+20497          Bloom-3b  autohf            8             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+20542          Bloom-3b  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+20587          Bloom-3b  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+20632          Bloom-3b  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+22749         Bloom-7b1  autohf            1              16        28.932817               NaN  CUDA out of memory  CUDA out of memory          NaN
+22794         Bloom-7b1  autohf            1              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+22839         Bloom-7b1  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+22884         Bloom-7b1  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+22929         Bloom-7b1  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+22974         Bloom-7b1  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+23019         Bloom-7b1  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+23334         Bloom-7b1  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+23379         Bloom-7b1  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+23424         Bloom-7b1  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+23469         Bloom-7b1  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+23514         Bloom-7b1  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+23874         Bloom-7b1  autohf            4             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+23919         Bloom-7b1  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+23964         Bloom-7b1  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+24009         Bloom-7b1  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+24369         Bloom-7b1  autohf            8             128        22.638338               NaN  CUDA out of memory  CUDA out of memory          NaN
+24414         Bloom-7b1  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+24459         Bloom-7b1  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+24504         Bloom-7b1  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+26576  Codellama-13b-hf  autohf            1               8              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+26621  Codellama-13b-hf  autohf            1              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+26666  Codellama-13b-hf  autohf            1              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+26711  Codellama-13b-hf  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+26756  Codellama-13b-hf  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+26801  Codellama-13b-hf  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+26846  Codellama-13b-hf  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+26891  Codellama-13b-hf  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27161  Codellama-13b-hf  autohf            2              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27206  Codellama-13b-hf  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27251  Codellama-13b-hf  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27296  Codellama-13b-hf  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27341  Codellama-13b-hf  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27386  Codellama-13b-hf  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27701  Codellama-13b-hf  autohf            4              64        11.789895               NaN  CUDA out of memory  CUDA out of memory          NaN
+27746  Codellama-13b-hf  autohf            4             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27791  Codellama-13b-hf  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27836  Codellama-13b-hf  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+27881  Codellama-13b-hf  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+28286  Codellama-13b-hf  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+28331  Codellama-13b-hf  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+28376  Codellama-13b-hf  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+30538  Codellama-34b-hf  autohf            1              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+30583  Codellama-34b-hf  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+30628  Codellama-34b-hf  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+30673  Codellama-34b-hf  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+30718  Codellama-34b-hf  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+30763  Codellama-34b-hf  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+30808  Codellama-34b-hf  autohf            2               1              NaN          0.105297  CUDA out of memory                  ok          NaN
+30853  Codellama-34b-hf  autohf            2               2              NaN          0.205505  CUDA out of memory                  ok          NaN
+30898  Codellama-34b-hf  autohf            2               4              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+30943  Codellama-34b-hf  autohf            2               8              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+30988  Codellama-34b-hf  autohf            2              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31033  Codellama-34b-hf  autohf            2              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31078  Codellama-34b-hf  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31123  Codellama-34b-hf  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31168  Codellama-34b-hf  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31213  Codellama-34b-hf  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31258  Codellama-34b-hf  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31292  Codellama-34b-hf  autohf            2               1              NaN          0.105297  CUDA out of memory                  ok          NaN
+31337  Codellama-34b-hf  autohf            2               2              NaN          0.205505  CUDA out of memory                  ok          NaN
+31382  Codellama-34b-hf  autohf            2               4              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31427  Codellama-34b-hf  autohf            2               8              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31472  Codellama-34b-hf  autohf            2              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31517  Codellama-34b-hf  autohf            2              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31562  Codellama-34b-hf  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31607  Codellama-34b-hf  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31652  Codellama-34b-hf  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31697  Codellama-34b-hf  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31742  Codellama-34b-hf  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+31877  Codellama-34b-hf  autohf            4               4         5.347197               NaN                  ok  CUDA out of memory          NaN
+31922  Codellama-34b-hf  autohf            4               8         5.332970               NaN                  ok  CUDA out of memory          NaN
+31967  Codellama-34b-hf  autohf            4              16         5.187822               NaN                  ok  CUDA out of memory          NaN
+32012  Codellama-34b-hf  autohf            4              32         5.623152               NaN  CUDA out of memory  CUDA out of memory          NaN
+32057  Codellama-34b-hf  autohf            4              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+32102  Codellama-34b-hf  autohf            4             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+32147  Codellama-34b-hf  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+32192  Codellama-34b-hf  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+32237  Codellama-34b-hf  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+32597  Codellama-34b-hf  autohf            8             128         4.215686               NaN  CUDA out of memory  CUDA out of memory          NaN
+32642  Codellama-34b-hf  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+32687  Codellama-34b-hf  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+32732  Codellama-34b-hf  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33286  Codellama-70b-hf  autohf            4               8              NaN          0.348320  CUDA out of memory                  ok          NaN
+33309  Codellama-70b-hf  autohf            4              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33332  Codellama-70b-hf  autohf            4              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33355  Codellama-70b-hf  autohf            4              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33378  Codellama-70b-hf  autohf            4             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33401  Codellama-70b-hf  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33424  Codellama-70b-hf  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33447  Codellama-70b-hf  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33585  Codellama-70b-hf  autohf            8              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33608  Codellama-70b-hf  autohf            8              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33631  Codellama-70b-hf  autohf            8             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33654  Codellama-70b-hf  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33677  Codellama-70b-hf  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+33700  Codellama-70b-hf  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34002   Codellama-7b-hf  autohf            1              16        23.548801               NaN  CUDA out of memory  CUDA out of memory          NaN
+34047   Codellama-7b-hf  autohf            1              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34092   Codellama-7b-hf  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34137   Codellama-7b-hf  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34182   Codellama-7b-hf  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34227   Codellama-7b-hf  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34272   Codellama-7b-hf  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34587   Codellama-7b-hf  autohf            2              64        22.966397               NaN  CUDA out of memory  CUDA out of memory          NaN
+34632   Codellama-7b-hf  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34677   Codellama-7b-hf  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34722   Codellama-7b-hf  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+34767   Codellama-7b-hf  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+35127   Codellama-7b-hf  autohf            4             128        20.238878               NaN  CUDA out of memory  CUDA out of memory          NaN
+35172   Codellama-7b-hf  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+35217   Codellama-7b-hf  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+35262   Codellama-7b-hf  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+35667   Codellama-7b-hf  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+35712   Codellama-7b-hf  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+35757   Codellama-7b-hf  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+37809          Gemma-2b  autohf            1              32        47.296964               NaN  CUDA out of memory  CUDA out of memory          NaN
+37832          Gemma-2b  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+37855          Gemma-2b  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+37878          Gemma-2b  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+37901          Gemma-2b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+37924          Gemma-2b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+38085          Gemma-2b  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+38108          Gemma-2b  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+38131          Gemma-2b  autohf            2             256              NaN               NaN       killed-noInfo  CUDA out of memory          NaN
+40623          Gemma-7b  autohf            1               8         7.229328               NaN  CUDA out of memory  CUDA out of memory          NaN
+40646          Gemma-7b  autohf            1              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40669          Gemma-7b  autohf            1              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40692          Gemma-7b  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40715          Gemma-7b  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40738          Gemma-7b  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40761          Gemma-7b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40784          Gemma-7b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40899          Gemma-7b  autohf            2              16         1.961611               NaN                  ok  CUDA out of memory          NaN
+40922          Gemma-7b  autohf            2              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40945          Gemma-7b  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40968          Gemma-7b  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+40991          Gemma-7b  autohf            2             256              NaN               NaN       killed-noInfo  CUDA out of memory          NaN
+45665           Phi-1_5  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+45710           Phi-1_5  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+45755           Phi-1_5  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+45800           Phi-1_5  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+46160           Phi-1_5  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+46205           Phi-1_5  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+46250           Phi-1_5  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+46295           Phi-1_5  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+46655           Phi-1_5  autohf            4             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+46700           Phi-1_5  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+46745           Phi-1_5  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+46790           Phi-1_5  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+47150           Phi-1_5  autohf            8             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+47195           Phi-1_5  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+47240           Phi-1_5  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+47285           Phi-1_5  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+49537             Phi-2  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+49582             Phi-2  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+49627             Phi-2  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+49672             Phi-2  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+50032             Phi-2  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+50077             Phi-2  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+50122             Phi-2  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+50167             Phi-2  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+50572             Phi-2  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+50617             Phi-2  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+50662             Phi-2  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+51067             Phi-2  autohf            8             256        35.801191               NaN  CUDA out of memory  CUDA out of memory          NaN
+51112             Phi-2  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+51157             Phi-2  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53319     Codestral-22b  autohf            1              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53364     Codestral-22b  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53409     Codestral-22b  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53454     Codestral-22b  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53499     Codestral-22b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53544     Codestral-22b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53679     Codestral-22b  autohf            2               4              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53724     Codestral-22b  autohf            2               8              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53769     Codestral-22b  autohf            2              16              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53814     Codestral-22b  autohf            2              32              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53859     Codestral-22b  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53904     Codestral-22b  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53949     Codestral-22b  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+53994     Codestral-22b  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+54039     Codestral-22b  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+54399     Codestral-22b  autohf            4             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+54444     Codestral-22b  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+54489     Codestral-22b  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+54534     Codestral-22b  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+54939     Codestral-22b  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+54984     Codestral-22b  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+55029     Codestral-22b  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+55966        Mistral-7b  autohf            1              32        19.109835               NaN  CUDA out of memory  CUDA out of memory          NaN
+56008        Mistral-7b  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+56050        Mistral-7b  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+56092        Mistral-7b  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+56134        Mistral-7b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+56176        Mistral-7b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+56512        Mistral-7b  autohf            2             128        15.127362               NaN  CUDA out of memory       killed-noInfo          NaN
+57013        Mistral-7b  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+57055        Mistral-7b  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+57097        Mistral-7b  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+57475        Mistral-7b  autohf            8             256              NaN               NaN       killed-noInfo  CUDA out of memory          NaN
+59684      Mixtral-8x7b  autohf            1              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+59729      Mixtral-8x7b  autohf            1             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+59774      Mixtral-8x7b  autohf            1             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+59819      Mixtral-8x7b  autohf            1             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+59864      Mixtral-8x7b  autohf            1            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+60134      Mixtral-8x7b  autohf            2              32              NaN          1.733643  CUDA out of memory                  ok          NaN
+60179      Mixtral-8x7b  autohf            2              64              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+60224      Mixtral-8x7b  autohf            2             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+60269      Mixtral-8x7b  autohf            2             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+60314      Mixtral-8x7b  autohf            2             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+60359      Mixtral-8x7b  autohf            2            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+60629      Mixtral-8x7b  autohf            4              32              NaN          2.634792  CUDA out of memory                  ok          NaN
+60674      Mixtral-8x7b  autohf            4              64              NaN          4.105531  CUDA out of memory  CUDA out of memory          NaN
+60719      Mixtral-8x7b  autohf            4             128              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+60764      Mixtral-8x7b  autohf            4             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+60809      Mixtral-8x7b  autohf            4             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+60854      Mixtral-8x7b  autohf            4            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+61214      Mixtral-8x7b  autohf            8             128        10.145965               NaN  CUDA out of memory  CUDA out of memory          NaN
+61259      Mixtral-8x7b  autohf            8             256              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+61304      Mixtral-8x7b  autohf            8             512              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN
+61349      Mixtral-8x7b  autohf            8            1028              NaN               NaN  CUDA out of memory  CUDA out of memory          NaN

@@ -1,0 +1,4 @@
+autohf tesla ANOVA Results: throughput
+F-statistic: 0.005352872569761522
+p-value: 0.9994552102121455
+Fail to reject the null hypothesis. There is no statistically significant difference in throughput across different numbers of GPUs.

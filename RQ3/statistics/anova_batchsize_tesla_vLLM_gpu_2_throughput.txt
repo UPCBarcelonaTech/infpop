@@ -1,0 +1,4 @@
+tesla_vLLM_throughput ANOVA Results: throughput
+F-statistic: 6.685474383288564
+p-value: 1.3828873289133547e-08
+Reject the null hypothesis: There is a significant difference in throughput values based on batch size.

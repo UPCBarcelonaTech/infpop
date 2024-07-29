@@ -1,0 +1,4 @@
+--tesla GPU 8
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 1.3128610014438802e-20
+The difference in throughput between vLLM and autohf is significant.
+Cliff's delta: (0.8900567107750472, (0.8392322378038315, 0.940881183746263))

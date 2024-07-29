@@ -1,0 +1,7 @@
+--Mistral-7b-v0.1 autohf
+Paired t-wilcoxon: t-statistic = 15.0, p-value = 1.0207295417785645e-06
+Mistral-7b-v0.1 autohf: The difference in throughput between a100 and tesla is significant.
+Mistral-7b-v0.1 autohf: Cliff's delta: (0.5510204081632653, (0.29119934658655866, 0.8108414697399718))
+Mistral-7b-v0.1 autohf: Mean improvement: 15.944986962545661
+Mistral-7b-v0.1 autohf: Median improvement: 15.303133691848597
+Mistral-7b-v0.1 autohf: std improvement: 9.228026592262085

@@ -1,0 +1,7 @@
+--Phi-2 autohf
+Paired t-wilcoxon: t-statistic = 10.0, p-value = 8.009374141693115e-08
+Phi-2 autohf: The difference in throughput between a100 and tesla is significant.
+Phi-2 autohf: Cliff's delta: (0.34, (0.05106041988759513, 0.6289395801124049))
+Phi-2 autohf: Mean improvement: 21.83758097194619
+Phi-2 autohf: Median improvement: 24.13415022611391
+Phi-2 autohf: std improvement: 11.357102165714737

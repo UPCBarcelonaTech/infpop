@@ -1,0 +1,7 @@
+--Starcoder vLLM
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 2.3283064365386963e-10
+Starcoder vLLM: The difference in throughput between a100 and tesla is significant.
+Starcoder vLLM: Cliff's delta: (0.4857667584940312, (0.24662071479426242, 0.7249128021938))
+Starcoder vLLM: Mean improvement: 90.05873628054324
+Starcoder vLLM: Median improvement: 87.8969354702482
+Starcoder vLLM: std improvement: 21.57983825754183

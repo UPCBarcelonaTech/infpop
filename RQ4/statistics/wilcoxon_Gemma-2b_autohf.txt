@@ -1,0 +1,7 @@
+--Gemma-2b autohf
+Paired t-wilcoxon: t-statistic = 21.0, p-value = 0.3203125
+Gemma-2b autohf: The difference in throughput between a100 and tesla is not significant.
+Gemma-2b autohf: Cliff's delta: (-0.15702479338842976, (-0.737774000757716, 0.4237244139808565))
+Gemma-2b autohf: Mean improvement: 1.899599643819301
+Gemma-2b autohf: Median improvement: -16.342950217016554
+Gemma-2b autohf: std improvement: 24.55465100833914

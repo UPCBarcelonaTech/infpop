@@ -1,0 +1,7 @@
+--Wizardcoder-33b-v1.1 autohf
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 0.5
+Wizardcoder-33b-v1.1 autohf: The difference in throughput between a100 and tesla is not significant.
+Wizardcoder-33b-v1.1 autohf: Cliff's delta: (0.5, (-0.479981992270027, 1.479981992270027))
+Wizardcoder-33b-v1.1 autohf: Mean improvement: 535.6034357490577
+Wizardcoder-33b-v1.1 autohf: Median improvement: 535.6034357490577
+Wizardcoder-33b-v1.1 autohf: std improvement: 660.5995730397464

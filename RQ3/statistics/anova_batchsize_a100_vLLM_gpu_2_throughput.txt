@@ -1,0 +1,4 @@
+a100_vLLM_throughput ANOVA Results: throughput
+F-statistic: 8.611507366688976
+p-value: 2.9633841177647415e-11
+Reject the null hypothesis: There is a significant difference in throughput values based on batch size.

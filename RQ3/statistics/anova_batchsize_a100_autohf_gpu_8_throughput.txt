@@ -1,0 +1,4 @@
+a100_autohf_throughput ANOVA Results: throughput
+F-statistic: 1.975892833760763
+p-value: 0.053880253799474136
+Accept the null hypothesis: There is no significant difference in throughput values based on batch size.

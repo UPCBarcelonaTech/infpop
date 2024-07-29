@@ -1,0 +1,7 @@
+--Codestral-22b vLLM
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 4.76837158203125e-07
+Codestral-22b vLLM: The difference in throughput between a100 and tesla is significant.
+Codestral-22b vLLM: Cliff's delta: (0.6776859504132231, (0.4289412529010043, 0.9264306479254418))
+Codestral-22b vLLM: Mean improvement: 136.4460840230124
+Codestral-22b vLLM: Median improvement: 132.11440157297602
+Codestral-22b vLLM: std improvement: 23.38571937905982

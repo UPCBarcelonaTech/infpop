@@ -1,0 +1,1930 @@
+{
+    "summaryMedianMedian": 0.49824734410221705,
+    "summaryMedianMean": 3.306113957127951,
+    "allMedians": [
+        0.0,
+        37.98571515834565,
+        0.0,
+        0.09166036080666143,
+        1.2485498037318012,
+        3.416671089061686,
+        0.4588721209812145,
+        0.0,
+        5.608605458455738,
+        0.7356758717591586,
+        0.053868825639768234,
+        5.056076983882086,
+        0.0,
+        0.0,
+        8.91786352251447,
+        0.8713144081336119,
+        0.5376225672232197,
+        0.0,
+        0.8768656404989303,
+        0.26291733152502417
+    ],
+    "allPositive": 14,
+    "summaryTotal": 20,
+    "data": [
+        {
+            "model": "Wizardcoder-15b-v1.0",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "max": 0.0,
+            "min": 0.0,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 190.5282389863061
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 374.8228491332634
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 374.8228491332634,
+                    "improvement": 0.0
+                }
+            ]
+        },
+        {
+            "model": "Wizardcoder-33b-v1.1",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 37.985715158345656,
+            "median": 37.98571515834565,
+            "std": 7.105427357601002e-15,
+            "max": 37.98571515834565,
+            "min": 37.98571515834565,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 128,
+                "nrGPUs": 4,
+                "throughput": 165.39536559097485
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 128,
+                "nrGPUs": 4,
+                "throughput": 165.49013925701377
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 228.35275217033256,
+                    "improvement": 37.98571515834565
+                }
+            ]
+        },
+        {
+            "model": "Starcoder",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "max": 0.0,
+            "min": 0.0,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 192.5868175434537
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 383.5285049871412
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 383.5285049871412,
+                    "improvement": 0.0
+                }
+            ]
+        },
+        {
+            "model": "Starcoder2-3b",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.08249432472599529,
+            "median": 0.09166036080666143,
+            "std": 0.027498108241998425,
+            "max": 0.09166036080666143,
+            "min": 0.0,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 317.7754639021114
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 525.8282259607532
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 525.8282259607532,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 526.3102020098921,
+                    "improvement": 0.09166036080666143
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 526.3102020098921,
+                    "improvement": 0.09166036080666143
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 526.3102020098921,
+                    "improvement": 0.09166036080666143
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 526.3102020098921,
+                    "improvement": 0.09166036080666143
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 526.3102020098921,
+                    "improvement": 0.09166036080666143
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 526.3102020098921,
+                    "improvement": 0.09166036080666143
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 526.3102020098921,
+                    "improvement": 0.09166036080666143
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 526.3102020098921,
+                    "improvement": 0.09166036080666143
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 526.3102020098921,
+                    "improvement": 0.09166036080666143
+                }
+            ]
+        },
+        {
+            "model": "Starcoder2-7b",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 1.1693004056678062,
+            "median": 1.2485498037318012,
+            "std": 0.23774819419198512,
+            "max": 1.2485498037318012,
+            "min": 0.45605582309185083,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 4,
+                "throughput": 214.54978122785383
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 4,
+                "throughput": 417.383349265553
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 422.5945882536173,
+                    "improvement": 1.2485498037318012
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 422.5945882536173,
+                    "improvement": 1.2485498037318012
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 422.5945882536173,
+                    "improvement": 1.2485498037318012
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 422.5945882536173,
+                    "improvement": 1.2485498037318012
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 422.5945882536173,
+                    "improvement": 1.2485498037318012
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 422.5945882536173,
+                    "improvement": 1.2485498037318012
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 422.5945882536173,
+                    "improvement": 1.2485498037318012
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 422.5945882536173,
+                    "improvement": 1.2485498037318012
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 128,
+                    "nrGPUs": 4,
+                    "throughput": 419.2868503344944,
+                    "improvement": 0.45605582309185083
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 422.5945882536173,
+                    "improvement": 1.2485498037318012
+                }
+            ]
+        },
+        {
+            "model": "Bloom-1b7",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 3.416671089061686,
+            "median": 3.416671089061686,
+            "std": 0.0,
+            "max": 3.416671089061686,
+            "min": 3.416671089061686,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 548.8579304304319
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 775.0956873671014
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 801.5781576299371,
+                    "improvement": 3.416671089061686
+                }
+            ]
+        },
+        {
+            "model": "Bloom-3b",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.4588721209812145,
+            "median": 0.4588721209812145,
+            "std": 0.0,
+            "max": 0.4588721209812145,
+            "min": 0.4588721209812145,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 458.99869021447654
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 671.3080888872346
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 674.3885345530299,
+                    "improvement": 0.4588721209812145
+                }
+            ]
+        },
+        {
+            "model": "Bloom-7b1",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "max": 0.0,
+            "min": 0.0,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 366.5639224185814
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 633.514042521297
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 633.514042521297,
+                    "improvement": 0.0
+                }
+            ]
+        },
+        {
+            "model": "Codellama-13b-hf",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 5.176292529940698,
+            "median": 5.608605458455738,
+            "std": 0.6603689062760694,
+            "max": 5.608605458455738,
+            "min": 4.167562363405602,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 128,
+                "nrGPUs": 8,
+                "throughput": 160.62280237800945
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 128,
+                "nrGPUs": 8,
+                "throughput": 258.4843964682575
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 128,
+                    "nrGPUs": 4,
+                    "throughput": 272.98176643783256,
+                    "improvement": 5.608605458455738
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 16,
+                    "nrGPUs": 8,
+                    "throughput": 269.2568948907447,
+                    "improvement": 4.167562363405602
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 128,
+                    "nrGPUs": 4,
+                    "throughput": 272.98176643783256,
+                    "improvement": 5.608605458455738
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 128,
+                    "nrGPUs": 4,
+                    "throughput": 272.98176643783256,
+                    "improvement": 5.608605458455738
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 128,
+                    "nrGPUs": 4,
+                    "throughput": 272.98176643783256,
+                    "improvement": 5.608605458455738
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 128,
+                    "nrGPUs": 4,
+                    "throughput": 272.98176643783256,
+                    "improvement": 5.608605458455738
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 16,
+                    "nrGPUs": 8,
+                    "throughput": 269.2568948907447,
+                    "improvement": 4.167562363405602
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 16,
+                    "nrGPUs": 8,
+                    "throughput": 269.2568948907447,
+                    "improvement": 4.167562363405602
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 128,
+                    "nrGPUs": 4,
+                    "throughput": 272.98176643783256,
+                    "improvement": 5.608605458455738
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 128,
+                    "nrGPUs": 4,
+                    "throughput": 272.98176643783256,
+                    "improvement": 5.608605458455738
+                }
+            ]
+        },
+        {
+            "model": "Codellama-34b-hf",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.7356758717591586,
+            "median": 0.7356758717591586,
+            "std": 0.0,
+            "max": 0.7356758717591586,
+            "min": 0.7356758717591586,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 136.33187536312371
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 279.87726748152977
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 281.9362570089302,
+                    "improvement": 0.7356758717591586
+                }
+            ]
+        },
+        {
+            "model": "Codellama-70b-hf",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.053868825639768234,
+            "median": 0.053868825639768234,
+            "std": 0.0,
+            "max": 0.053868825639768234,
+            "min": 0.053868825639768234,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 76.76058737488965
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 173.3459297236729
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 512,
+                    "nrGPUs": 8,
+                    "throughput": 173.43930914030938,
+                    "improvement": 0.053868825639768234
+                }
+            ]
+        },
+        {
+            "model": "Codellama-7b-hf",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 5.056076983882086,
+            "median": 5.056076983882086,
+            "std": 0.0,
+            "max": 5.056076983882086,
+            "min": 5.056076983882086,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 269.04365723467095
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 397.01522429345454
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 4,
+                    "throughput": 417.08861967146373,
+                    "improvement": 5.056076983882086
+                }
+            ]
+        },
+        {
+            "model": "Gemma-2b",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": -0.21344430069907316,
+            "median": 0.0,
+            "std": 0.6403329020972195,
+            "max": 0.0,
+            "min": -2.1344430069907316,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 549.0572495147406
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 849.7921426523794
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 831.653813689579,
+                    "improvement": -2.1344430069907316
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 849.7921426523794,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 849.7921426523794,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 849.7921426523794,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 849.7921426523794,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 849.7921426523794,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 849.7921426523794,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 849.7921426523794,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 849.7921426523794,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 849.7921426523794,
+                    "improvement": 0.0
+                }
+            ]
+        },
+        {
+            "model": "Gemma-7b",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "max": 0.0,
+            "min": 0.0,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 339.4750581813278
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 633.8310802383022
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 633.8310802383022,
+                    "improvement": 0.0
+                }
+            ]
+        },
+        {
+            "model": "Phi-1",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 8.91786352251447,
+            "median": 8.91786352251447,
+            "std": 0.0,
+            "max": 8.91786352251447,
+            "min": 8.91786352251447,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 4,
+                "throughput": 508.8018969540232
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 4,
+                "throughput": 767.5566969243539
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 512,
+                    "nrGPUs": 1,
+                    "throughput": 836.0063556139878,
+                    "improvement": 8.91786352251447
+                }
+            ]
+        },
+        {
+            "model": "Phi-1_5",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.8713144081336119,
+            "median": 0.8713144081336119,
+            "std": 0.0,
+            "max": 0.8713144081336119,
+            "min": 0.8713144081336119,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 256,
+                "nrGPUs": 4,
+                "throughput": 510.5276043580509
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 256,
+                "nrGPUs": 4,
+                "throughput": 760.0672206447736
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 766.6897958497522,
+                    "improvement": 0.8713144081336119
+                }
+            ]
+        },
+        {
+            "model": "Phi-2",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.5376225672232195,
+            "median": 0.5376225672232197,
+            "std": 1.1102230246251565e-16,
+            "max": 0.5376225672232197,
+            "min": 0.5376225672232197,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 422.69645343261453
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 669.3832087097835
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 512,
+                    "nrGPUs": 4,
+                    "throughput": 672.9819639010102,
+                    "improvement": 0.5376225672232197
+                }
+            ]
+        },
+        {
+            "model": "Codestral-22b-v0.1",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "max": 0.0,
+            "min": 0.0,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 215.80348245353608
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 256,
+                "nrGPUs": 8,
+                "throughput": 510.43204212354266
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 510.43204212354266,
+                    "improvement": 0.0
+                }
+            ]
+        },
+        {
+            "model": "Mistral-7b-v0.1",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.8768656404989305,
+            "median": 0.8768656404989303,
+            "std": 1.1102230246251565e-16,
+            "max": 0.8768656404989303,
+            "min": 0.8768656404989303,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 321.28362400406417
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 585.1664812248903
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 590.297605038468,
+                    "improvement": 0.8768656404989303
+                }
+            ]
+        },
+        {
+            "model": "Mixtral-8x7b-v0.1",
+            "engine": "vLLM",
+            "from": "tesla",
+            "to": "a100",
+            "mean": 0.26291733152502417,
+            "median": 0.26291733152502417,
+            "std": 0.0,
+            "max": 0.26291733152502417,
+            "min": 0.26291733152502417,
+            "bestInOriginal": {
+                "originalHardware": "tesla",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 168.18443124112093
+            },
+            "bestOriginalInTarget": {
+                "originalHardware": "a100",
+                "batchSize": 512,
+                "nrGPUs": 8,
+                "throughput": 380.9949024914903
+            },
+            "allImprovements": [
+                {
+                    "nr": 0,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                },
+                {
+                    "nr": 1,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                },
+                {
+                    "nr": 2,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                },
+                {
+                    "nr": 3,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                },
+                {
+                    "nr": 4,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                },
+                {
+                    "nr": 5,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                },
+                {
+                    "nr": 6,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                },
+                {
+                    "nr": 7,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                },
+                {
+                    "nr": 8,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                },
+                {
+                    "nr": 9,
+                    "batchSize": 256,
+                    "nrGPUs": 8,
+                    "throughput": 381.9966041223673,
+                    "improvement": 0.26291733152502417
+                }
+            ]
+        }
+    ]
+}

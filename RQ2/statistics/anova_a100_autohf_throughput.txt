@@ -1,0 +1,4 @@
+autohf a100 ANOVA Results: throughput
+F-statistic: 0.3715914321264161
+p-value: 0.7737323855262472
+Fail to reject the null hypothesis. There is no statistically significant difference in throughput across different numbers of GPUs.

@@ -1,0 +1,4 @@
+vLLM a100 ANOVA Results: throughput
+F-statistic: 5.445899691241537
+p-value: 0.002129936794324634
+Reject the null hypothesis. There is a statistically significant difference in throughput across different numbers of GPUs.

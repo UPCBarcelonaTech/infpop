@@ -1,0 +1,7 @@
+--Gemma-2b vLLM
+Paired t-wilcoxon: t-statistic = 0.0, p-value = 1.1368683772161603e-13
+Gemma-2b vLLM: The difference in throughput between a100 and tesla is significant.
+Gemma-2b vLLM: Cliff's delta: (0.48140495867768596, (0.26429157152061283, 0.698518345834759))
+Gemma-2b vLLM: Mean improvement: 58.85314473295985
+Gemma-2b vLLM: Median improvement: 52.02282067663454
+Gemma-2b vLLM: std improvement: 18.6601103667622

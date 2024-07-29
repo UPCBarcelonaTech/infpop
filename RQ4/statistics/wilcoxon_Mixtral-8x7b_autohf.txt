@@ -1,0 +1,7 @@
+--Mixtral-8x7b autohf
+Paired t-wilcoxon: t-statistic = 58.0, p-value = 0.013528585433959961
+Mixtral-8x7b autohf: The difference in throughput between a100 and tesla is significant.
+Mixtral-8x7b autohf: Cliff's delta: (0.05103969754253308, (-0.2901532767584489, 0.392232671843515))
+Mixtral-8x7b autohf: Mean improvement: 36.81029785418538
+Mixtral-8x7b autohf: Median improvement: 7.461223672260776
+Mixtral-8x7b autohf: std improvement: 101.76008009912617

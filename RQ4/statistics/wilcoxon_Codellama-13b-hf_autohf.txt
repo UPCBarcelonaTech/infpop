@@ -1,0 +1,7 @@
+--Codellama-13b-hf autohf
+Paired t-wilcoxon: t-statistic = 3.0, p-value = 2.384185791015625e-06
+Codellama-13b-hf autohf: The difference in throughput between a100 and tesla is significant.
+Codellama-13b-hf autohf: Cliff's delta: (0.48760330578512395, (0.1731025882381872, 0.8021040233320607))
+Codellama-13b-hf autohf: Mean improvement: 28.702006744405352
+Codellama-13b-hf autohf: Median improvement: 18.312336218790456
+Codellama-13b-hf autohf: std improvement: 30.1657623165276
